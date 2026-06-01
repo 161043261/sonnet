@@ -34,7 +34,7 @@ export const buildApp = async (): Promise<AppInstance> => {
   app.use(bodyParser());
 
   // Serve static files from client folder
-  app.use(serve(path.join(__dirname, "./client")));
+  app.use(serve(path.join(__dirname, process.env.CLIENT_PATH || "./client")));
 
   // Setup Routes
   const promptRouter = setupPromptRoutes();
