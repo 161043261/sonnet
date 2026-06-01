@@ -1,0 +1,20 @@
+{
+  "files.associations": {
+    "*.page-template": "vue",
+    "*.layout-template": "vue",
+    "*.vue": "vue",
+    "*.gyp": "json"
+  },
+  "cmake.ignoreCMakeListsMissing": true,
+  "cSpell.words": [
+    "gypfile",
+    "hangtiancheng",
+    "heapify",
+    "heappop",
+    "heappush",
+    "libheap",
+    "libpool",
+    "mbps",
+    "napi"
+  ]
+}

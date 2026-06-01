@@ -1,0 +1,32 @@
+{
+  "author": "https://github.com/hangtiancheng",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "concurrently": "^9.2.1",
+    "husky": "^9.1.7",
+    "jsdom": "^26.1.0",
+    "lint-staged": "^17.0.4",
+    "vitest": "^4.1.4"
+  },
+  "lint-staged": {},
+  "name": "lark",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hangtiancheng/lark.git"
+  },
+  "scripts": {
+    "build": "vitepress build",
+    "dev": "vitepress dev",
+    "prepare": "husky",
+    "preview": "vitepress preview",
+    "test": "concurrently \"pnpm test:bloom-filter\" \"pnpm test:distributed-lock\" \"pnpm test:math\" \"pnpm test:mini-zustand\" \"pnpm test:react-vue\" \"pnpm test:vue-reactivity\"'",
+    "test:bloom-filter": "pnpm --filter @lark.js/bloom-filter test",
+    "test:distributed-lock": "pnpm --filter @lark.js/distributed-lock test",
+    "test:math": "pnpm --filter @lark.js/math test",
+    "test:mini-zustand": "pnpm --filter @lark.js/mini-zustand test",
+    "test:react-vue": "pnpm --filter @lark.js/react-vue test",
+    "test:vue-reactivity": "pnpm --filter @lark.js/vue-reactivity test"
+  },
+  "type": "module"
+}

@@ -1,0 +1,21 @@
+packages:
+  - packages/*
+
+allowBuilds:
+  '@parcel/watcher': true
+  core-js: true
+  esbuild: true
+  msw: true
+  vue-demi: true
+
+minimumReleaseAgeExclude:
+  - '@lark.js/sentry@0.0.1'
+  - '@lark.js/mvc@0.0.4'
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - core-js
+  - core-js-pure
+  - es5-ext
+  - esbuild
+  - vue-demi
