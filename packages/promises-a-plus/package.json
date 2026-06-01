@@ -22,13 +22,13 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@types/node": "^25.5.0",
-    "eslint": "^10.1.0",
-    "globals": "^17.4.0",
-    "prettier": "^3.8.1",
+    "@types/node": "^25.9.1",
+    "eslint": "^10.4.1",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3",
     "promises-aplus-tests": "^2.1.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.57.1"
+    "typescript-eslint": "^8.60.0"
   },
   "type": "module",
   "engines": {

@@ -8,12 +8,12 @@
     "format": "prettier -w ./"
   },
   "dependencies": {
-    "@koa/router": "^15.4.0",
-    "koa": "^3.1.2"
+    "@koa/router": "^15.6.0",
+    "koa": "^3.2.1"
   },
   "devDependencies": {
-    "@types/koa": "^3.0.2",
-    "@types/node": "^20.19.37",
+    "@types/koa": "^3.0.3",
+    "@types/node": "^20.19.41",
     "typescript": "^5.9.3"
   },
   "type": "module"
